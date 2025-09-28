@@ -8,7 +8,9 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Текст писать тут
+          <div>Шишкин Александр</div>
+          <div>О себе: fullstack-разработчик, опыт 15 лет, основной стек java + устаревший JS (backbone, jQuery и т.д.)</div>
+          <div>Цель: актуализировать и углубить знания React, перейти на совремаенный стек frontend разработки</div>
         </p>
       </header>
     </div>
