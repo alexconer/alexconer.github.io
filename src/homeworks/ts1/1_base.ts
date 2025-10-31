@@ -55,7 +55,7 @@ export const hex2rgb = (color: string): [number, number, number] => {
 };
 
 export const getNumberedArray = (arr: number[]): {value: number, number: number}[] => arr.map((value, number) => ({ value, number }));
-export const toStringArray = (arr: {value:any, number: number}[]): string[] => arr.map(({ value, number }) => `${value}_${number}`);
+export const toStringArray = (arr: {value:number, number: number}[]): string[] => arr.map(({ value, number }) => `${value}_${number}`);
 
 interface Customer {
   id: number;
